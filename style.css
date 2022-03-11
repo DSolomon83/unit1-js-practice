@@ -32,14 +32,33 @@ footer {
     border-top: 1px solid silver;
 }
 H1 {
-    margin: 0px 15px;
-}
-H3 {
     margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
 }
+
 H2 {
     border-bottom: 4px dotted crimson;
 }
 body {
-    margin: 0px;
+    margin: 0;
+}
+.numbers-box {
+    height: 60px; 
+    width: 60px;
+    border-width: 10px;
+    border-color: dotted black;
+    background-color: white;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+
+
+. color-box-1 {
+    background-color: yellowgreen;
+    top: 0;
+    left: 0;
 }

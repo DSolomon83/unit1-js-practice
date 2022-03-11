@@ -1,0 +1,45 @@
+H1 {
+    color: crimson;
+    font-family: sans-serif;
+}
+H2 {
+    color: crimson;
+    font-family: sans-serif;
+}
+H3 {
+    color: crimson;
+    font-family: sans-serif;
+}
+.overview {
+    font-style: italic;
+}
+header {
+    background-color: #eee
+}
+footer {
+    background-color: #eee
+}
+div {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+header {
+    border-bottom: 1px solid silver;
+}
+footer {
+    border-top: 1px solid silver;
+}
+H1 {
+    margin: 0px 15px;
+}
+H3 {
+    margin-top: 0px;
+}
+H2 {
+    border-bottom: 4px dotted crimson;
+}
+body {
+    margin: 0px;
+}

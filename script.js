@@ -52,3 +52,12 @@ if (travelType === "foot") {
     console.log(`Sorry. ${traveType} is an ivalid option.`);
 }
 console.log(`Traveling ${distance} miles by ${travelType} took ${time} hours and cost $${cost}!`)
+let meterCostRemaining = 1.00;
+while (meterCostRemaining > 0) {
+    let coin = prompt(`$${meterCostRemaining} remaining. Type a coin to insert.`);
+    //TODO: check which coin was chose: "quarter", "dime", "nickel", or "penny"
+    //and subtract that from meterCostRemaining
+    meterCostRemaining -= .25;
+    console.log("Meter cost remaining: " + meterCostRemaining);
+}
+console.log("You have paid the parking meter.");
